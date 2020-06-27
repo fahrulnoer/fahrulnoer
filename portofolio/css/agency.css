@@ -215,7 +215,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #fff;
+    background-color: #212529;
     box-shadow: 0 10px 46px 0 rgba(0, 0, 0, 0.08);
   }
   #mainNav.navbar-shrink .navbar-brand {
