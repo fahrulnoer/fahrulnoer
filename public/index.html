@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-top: -10px">
                     <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                        <a class="nav-link js-scroll-trigger active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="experience.html">Experience</a>
@@ -45,7 +45,7 @@
                         <a class="nav-link js-scroll-trigger" href="portfolio/portofolio.html">Portofolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger active" href="contact.html">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
                     </li>
                     </ul>
                 </div>
@@ -53,51 +53,36 @@
         </nav>
 
         <!-- Header -->
-        <header class="secondhead">
+        <header class="masthead">
             <div class="container">
-            <div class="intro-text col-md-8">
-                <div class="intro-heading">Contact</div>
+            <div class="intro-text col-md-12">
+                <div class="intro-heading">I'm Fahrul Noer</div>
                 <div class="intro-desc">Back-end Developer</div>
                 <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Tell Me More</a> -->
             </div>
             </div>
         </header>
 
-        <!-- experience -->
+        <!-- About -->
         <section class="page-section" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col" style="width: 18rem;">
-                        <img src="./img/linkedin.jpg" class="card-img-top" alt="img">
-                        <div class="card-body">
-                            <h5 class="card-title">LinkedIn</h5>
-                            <p class="card-text">fahrulnoer</p>
-                            <a href="https://www.linkedin.com/in/fahrulnoer/" class="btn btn-success">Go</a>
-                        </div>
+                    <div class="col-lg-6 text-center">
+                        <img style="border-radius: 56px;" class="img-fluid" src="img/profile.jpeg" alt="Photo Profile">
                     </div>
-                    <div class="col" style="width: 18rem;">
-                        <img src="./img/gmail.png" class="card-img-top" alt="img">
-                        <div class="card-body">
-                            <h5 class="card-title">Mail</h5>
-                            <p class="card-text">fahrulnoer17@gmail.com</p>
-                            <a href="mailto:fahrulnoer17@gmail.com?Subject=subject text" class="btn btn-success">Go</a>
-                        </div>
-                    </div>
-                    <div class="col" style="width: 18rem;">
-                        <img src="./img/instagram.png" class="card-img-top" alt="img">
-                        <div class="card-body">
-                            <h5 class="card-title">Instagram</h5>
-                            <p class="card-text">@fahrulmn_</p>
-                            <a href="https://www.instagram.com/fahrulmn_/" class="btn btn-success">Go</a>
-                        </div>
-                    </div>
-                    <div class="col" style="width: 18rem;">
-                        <img src="./img/facebook.png" class="card-img-top" alt="img">
-                        <div class="card-body">
-                            <h5 class="card-title">Facebook</h5>
-                            <p class="card-text">arul</p>
-                            <a href="https://www.facebook.com/albaktari.77" class="btn btn-success">Go</a>
-                        </div>
+                    <div class="col-lg-6 text-center vertical-center">
+                        <h2 class="section-heading">About Me</h2>
+                        <h3 class="section-subheading left"><p>My name is Fahrul Muhammad Noer. I was born on 9 February 1999 in Tasikmalaya.
+                            I am Photographer, no photography sciencedegree but with a lot of curiosity and passion for photograph. And I am Math Teacher. I joined the community for almost 2 years in the same community, now serving as a Stage Photographer and part of communication and information at SPOT in Tasikmalaya, convey information to members.</p> 
+                        <p> First Name: Fahrul Muhammad Noer
+                        <br> Date of birth: 9 February 1999  
+                        <br> Phone: +6282318410565 
+                        <br> Email: fahrulnoer17@gmail.com
+                        <br> Instagram: @fahrulmn_ 
+                        <br> Address: Jakarta, Indonesia
+                        <br> Nationality: Indonesian 
+                        <br> Spoken Languages: Bahasa-Sundanese-English
+                        </p></h3>
                     </div>
                 </div>
             </div>
@@ -127,6 +112,29 @@
             </div>
             </div>
         </footer>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyALZBPGkT-iF1xM-F2F_vIbzJgrmCyJVhc",
+    authDomain: "fahrulmn17.firebaseapp.com",
+    databaseURL: "https://fahrulmn17.firebaseio.com",
+    projectId: "fahrulmn17",
+    storageBucket: "fahrulmn17.appspot.com",
+    messagingSenderId: "64067234804",
+    appId: "1:64067234804:web:346a435de2751ecd46e7a1",
+    measurementId: "G-9TSY9E7TGE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
